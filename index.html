@@ -7,21 +7,24 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
 	<!-- reset -->
-	<link href="css/reset.css" rel="stylesheet">
-	<link href="css/base.css" rel="stylesheet">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/base.css" rel="stylesheet" type="text/css">
 	<!--blocks-->
-	<link href="css/header.css" rel="stylesheet">
-	<link href="css/home.css" rel="stylesheet">
+	<link href="css/header.css" rel="stylesheet" type="text/css">
+	<link href="css/home.css" rel="stylesheet" type="text/css">
 	<title>SOLARTECH</title>
 </head>
+
 <body>
+
+	<div class="home-bg-img">
+	<img src="img/background.png" alt="home-bg-img">
+	</div>
+
 	<header class="header">
 		<div class="container">
-			<div class="home-bg-img">
-				<img src="C:\Users\User\Desktop\SOLARTECH\img/background.png" alt="home-bg-img">
-			</div>
 			<div class="header-row">
-				<div class="header-logo"><a href="index.html"><img src="C:\Users\User\Desktop\SOLARTECH\img\logo.png" alt="logo" width="220"></a></div>
+				<div class="header-logo"><a href="index.html"><img src="img/logo.png" alt="logo" width="220"></a></div>
 					<nav class="header-nav">
 						<ul>
 							<li><a href="#" style="color: #151515;"><strong>Главная</strong></a></li>
@@ -33,11 +36,13 @@
 						</ul>
 					</nav>
 				<div class="header-icon">
-					<a href="#"><img src="C:\Users\User\Desktop\SOLARTECH\img/cart.png" alt="search" width="24"></a>
-					<a href="#" class="btn"><img src="C:\Users\User\Desktop\SOLARTECH\img/search.png" alt="search" width="24"></a>
+					<a href="#"><img src="img/cart.png" alt="search" width="24"></a>
+					<a href="#" class="btn"><img src="img/search.png" alt="search" width="24"></a>
 				</div>
+			</div>
 		</div>
 	</header>
+
 	<main>
 		<section class="home">
 			<div class="container">
@@ -50,8 +55,20 @@
 							Солнечные станции для твоего дома
 						</p>
 					</div>
-					<div class="home-button">
-						<a href="#" class="button"></a>
+						<div class="bottom-bar">
+							<div class="bottom-row">
+								<nav class="advantages">
+									<ul>
+										<li><a href="#" style="color: #FFFFFF;"><img src="img/icon-1.png" width="32" alt="icon-1"><figcaption>Гарантия <br> на оборудование и монтаж</figcaption></a></li>
+										<li><a href="#" style="color: #FFFFFF;"><img src="img/icon-2.png" width="32" alt="icon-1"><figcaption>Мониторинг <br> производительности системы</figcaption></a></li>
+										<li><a href="#" style="color: #FFFFFF;"><img src="img/icon-3.png" width="32" alt="icon-1"><figcaption>Независимость <br> от электрических сетей</figcaption></a></li>
+										<li><a href="#" style="color: #FFFFFF;"><img src="img/icon-4.png" width="32" alt="icon-1"><figcaption>Выгодный <br> ценовой сегмент</figcaption></a></li>
+									</ul>
+								</nav>
+								<div class="home-btn">
+								<a href="#">Оставить заявку</a>
+								</div>
+						</div>
 					</div>
 				</div>
 			</div>
