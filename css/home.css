@@ -1,9 +1,7 @@
-.home {
-position: relative;
-padding-top: 64px;
-}
 
 .home-content {
+position: relative;
+padding-top: 86px;
 }
 
 .home-heading {
@@ -22,29 +20,9 @@ line-height: 20px;
 text-align: center;
 }
 
-
-/*.home-bg-img {
-z-index: -1;
-position: absolute;
-left: 0;
-top: 0;
-
-width: 100%;
-background-color: grey;
-}
-
-.home-bg-img img {
-
-width: 100%;
-object-fit: cover;
-}
-*/
-.bottom-bar{
-padding-top: 350px;
-padding-bottom: 40px;
-}
-
 .bottom-row{
+padding-top: 250px;
+padding-bottom: 40px;
 display: flex;
 align-items: center;
 }
@@ -87,5 +65,10 @@ padding: 10px 40px;
 gap: 10px;
 border: 1px solid #FFFFFF;
 border-radius: 12px;
+}
+
+.home-btn a:hover{
+background-color: #FFFFFF;
+color: #252525;
 }
 
