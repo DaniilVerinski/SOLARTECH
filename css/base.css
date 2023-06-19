@@ -4,7 +4,7 @@ font-weight: 400;
 font-size: 16px;
 color: #252525;
 min-width: 1216px;
-background-color: #c9bce3;
+
 }
 
 .none {
@@ -24,9 +24,17 @@ font-size: 0;
 }
 
 .container {
-width: 1216px;
+max-width: 1216px;
 padding-right: 8px;
 padding-left: 8px;
 margin-right: auto;
 margin-left: auto;
+}
+
+.container-right {
+padding-left: calc((100% - 1216px) / 2 + 8px);
+}
+
+.container-left {
+padding-right: calc((100% - 1216px) / 2 + 8px);
 }
