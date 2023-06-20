@@ -1,40 +1,52 @@
-body {
-font-family: 'Montserrat', sans-serif;
+.header {
+height: 100vh;
+background-color: #C0C0C0;
+background-image: url(../img/background.jpg);
+background-size: cover;
+background-position: center center;
+
+}
+
+.header-row {
+padding-top: 56px;
+padding-bottom: 56px;
+display: flex;
+align-items: center;
+}
+
+.header-logo{
+}
+
+.header-nav{
+
 font-weight: 400;
 font-size: 16px;
-color: #252525;
-min-width: 1216px;
-
+line-height: 20px;
+margin-left: 72px;
 }
 
-.none {
-display: none !important;
+.header-nav ul {
+display: flex;
 }
 
-.visibility-hidden {
-position: absolute;
-opacity: 0;
-visibility: hidden;
-width: 0;
-height: 0;
-display: block;
-margin-left: -10000;
-background: transparent;
-font-size: 0;
+.header-nav li + li {
+margin-left: 40px;
 }
 
-.container {
-max-width: 1216px;
-padding-right: 8px;
-padding-left: 8px;
-margin-right: auto;
+
+.header-nav a:hover {
+font-weight: bold;
+}
+
+.header-icon{
+display: flex;
+align-items: center;
 margin-left: auto;
 }
 
-.container-right {
-padding-left: calc((100% - 1216px) / 2 + 8px);
+.header-icon > * + * {
+margin-left: 24px;
 }
 
-.container-left {
-padding-right: calc((100% - 1216px) / 2 + 8px);
+.btn{
 }
