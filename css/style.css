@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(to left top, #031A9A, #8B53FF);
+  background: linear-gradient(to left top, #031A9A, #151515);
 }
 .wrapper {
   max-width: 1216px;
